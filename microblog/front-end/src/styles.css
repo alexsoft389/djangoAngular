@@ -1,0 +1,142 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  color: #555555;
+}
+
+.header{
+  background-color: #5ac0de;
+  height: 70px;
+  line-height: 70px;
+  color: white;
+  font-size: 24px;
+}
+.contentHeading{
+  padding-bottom: 50px;
+  font-size: 16px;
+}
+.fa-long-arrow-left{
+  color: #5ac0de;
+  margin-right: 20px;
+}
+.cakecourse h1{
+  color: #555555;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.cakecourseDash{
+    width: 60px;
+    height: 4px;
+    background: #eaeaea;
+    border-radius:5px;
+}
+.locumText{
+  padding-top: 30px;
+  color: #707070;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.locumText p{
+  margin-bottom: 20px;
+}
+.checkboxWrapper input{
+      width: 30px;
+    height: 30px;
+    position: absolute;
+}
+.checkboxWrapper a{
+  padding-right: 20px;
+  line-height: 40px;
+}
+.greyWrapper{
+  background-color: #f7f7f7;
+  padding: 80px 30px;
+}
+.whiteWrapper{
+  background-color: #ffffff;
+  padding: 80px 30px;
+}
+.topic{
+  color: #555555;
+}
+.topic h2{
+   color: #555555;
+  font-size: 36px;
+  margin:  0px;
+}
+.topic .col-sm-6{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.showlessBtn{
+    font-size: 18px;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: #5ac0de;
+    border: 2px solid #5ac0de;
+}
+.fa-long-arrow-up{
+  padding-right: 10px;
+}
+.dash{
+    height: 1px;
+    background: #ccc;
+}
+.readings{
+  padding: 30px 0px;
+}
+.card{
+    background: white;
+    padding: 40px;
+    box-shadow: 1px 1px 1px 1px #e2e1e1;
+    margin-bottom: 30px;
+}
+.whiteWrapper .card{
+  background: #f7f7f7;
+}
+.card .cardheading{
+  font-size: 28px;
+}
+.card .cardheading .leftTitle{
+  float: left;
+  color: #5e8ac7;
+}
+.card .cardheading .rightIcon{
+  float: right;
+  color: #5ac0de;
+}
+.fa-file-text-o{
+  padding-right: 10px;
+}
+.cardBody{
+  clear: both;
+  padding-top:  20px;
+  font-size: 18px;
+}
+.cardCheckIcon{
+   font-size: 36px;
+   color: #5e8ac7;
+}
+.cardCheckIcon span{
+  position: absolute;
+  left: 0px;
+  top: 90px;
+  display: none;
+}
+.cardCheckIcon.active span{
+  display: block;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    background: #5ac0de;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
